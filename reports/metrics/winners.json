@@ -1,0 +1,22 @@
+{
+  "regression": [
+    {
+      "target": "next_cycle_length",
+      "model": "random_forest_tuned",
+      "mae_mean": 1.1916
+    },
+    {
+      "target": "next_period_length",
+      "model": "random_forest_tuned",
+      "mae_mean": 0.57132
+    }
+  ],
+  "classification": {
+    "model": "random_forest_tuned",
+    "target": "next_is_irregular",
+    "pr_auc_mean": 0.87767,
+    "pr_auc_std": 0.02137,
+    "f1_mean": 0.75029,
+    "roc_auc_mean": 0.9706
+  }
+}

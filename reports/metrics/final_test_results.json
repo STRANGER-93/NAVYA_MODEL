@@ -1,0 +1,21 @@
+{
+  "next_cycle_length.mae": 1.1982079605861433,
+  "next_cycle_length.rmse": 1.7607669443215308,
+  "next_cycle_length.r2": 0.7984412763593528,
+  "next_period_length.mae": 0.5856187784339901,
+  "next_period_length.rmse": 0.735485159513416,
+  "next_period_length.r2": 0.6714586185910756,
+  "next_is_irregular.pr_auc": 0.8736341672362704,
+  "next_is_irregular.f1": 0.7507788161993769,
+  "next_is_irregular.roc_auc": 0.9740365977989742,
+  "next_is_irregular.confusion_matrix": [
+    [
+      2599,
+      128
+    ],
+    [
+      32,
+      241
+    ]
+  ]
+}

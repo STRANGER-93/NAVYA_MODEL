@@ -1,0 +1,13 @@
+model,target,mae_mean,mae_std,rmse_mean,rmse_std,r2_mean,r2_std,primary_metric,primary_value
+ridge,next_cycle_length,1.22345,0.02423,1.78799,0.04978,0.7829,0.01244,mae,1.22345
+random_forest,next_cycle_length,1.21759,0.02187,1.77032,0.03587,0.78722,0.00954,mae,1.21759
+xgboost,next_cycle_length,1.33991,0.01449,1.90969,0.02787,0.75246,0.0078,mae,1.33991
+lightgbm,next_cycle_length,1.26114,0.02307,1.83171,0.04345,0.77207,0.01414,mae,1.26114
+svr,next_cycle_length,1.24341,0.02823,1.79129,0.05644,0.78208,0.01366,mae,1.24341
+knn,next_cycle_length,1.3645,0.02336,1.933,0.05061,0.7463,0.01303,mae,1.3645
+ridge,next_period_length,0.5746,0.00785,0.7221,0.00762,0.68107,0.0096,mae,0.5746
+random_forest,next_period_length,0.57951,0.01085,0.72699,0.00894,0.67675,0.00985,mae,0.57951
+xgboost,next_period_length,0.64317,0.01149,0.80593,0.0089,0.60269,0.01373,mae,0.64317
+lightgbm,next_period_length,0.60056,0.01088,0.75362,0.00797,0.65265,0.00963,mae,0.60056
+svr,next_period_length,0.59112,0.00642,0.74571,0.00591,0.65994,0.0066,mae,0.59112
+knn,next_period_length,0.61701,0.00491,0.77956,0.00304,0.62833,0.00872,mae,0.61701

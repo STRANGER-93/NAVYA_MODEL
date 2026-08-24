@@ -1,0 +1,131 @@
+{
+  "top_features": {
+    "next_cycle_length": [
+      {
+        "feature": "cycle_mean_3",
+        "mean_abs_shap": 0.68838
+      },
+      {
+        "feature": "prev1_cycle_length",
+        "mean_abs_shap": 0.6483
+      },
+      {
+        "feature": "prev3_cycle_length",
+        "mean_abs_shap": 0.46109
+      },
+      {
+        "feature": "prev2_cycle_length",
+        "mean_abs_shap": 0.44053
+      },
+      {
+        "feature": "irregular_count_3",
+        "mean_abs_shap": 0.08998
+      },
+      {
+        "feature": "sleep",
+        "mean_abs_shap": 0.07347
+      },
+      {
+        "feature": "cycle_slope_3",
+        "mean_abs_shap": 0.07117
+      },
+      {
+        "feature": "bmi_x_stress",
+        "mean_abs_shap": 0.06941
+      },
+      {
+        "feature": "prev2_irregular_flag",
+        "mean_abs_shap": 0.04972
+      },
+      {
+        "feature": "prev3_irregular_flag",
+        "mean_abs_shap": 0.04785
+      }
+    ],
+    "next_period_length": [
+      {
+        "feature": "period_mean_3",
+        "mean_abs_shap": 0.53959
+      },
+      {
+        "feature": "prev1_period_length",
+        "mean_abs_shap": 0.14014
+      },
+      {
+        "feature": "prev2_period_length",
+        "mean_abs_shap": 0.1311
+      },
+      {
+        "feature": "prev3_period_length",
+        "mean_abs_shap": 0.09384
+      },
+      {
+        "feature": "bmi_x_stress",
+        "mean_abs_shap": 0.00656
+      },
+      {
+        "feature": "bmi",
+        "mean_abs_shap": 0.00601
+      },
+      {
+        "feature": "weight",
+        "mean_abs_shap": 0.00551
+      },
+      {
+        "feature": "period_range_3",
+        "mean_abs_shap": 0.00488
+      },
+      {
+        "feature": "period_std_3",
+        "mean_abs_shap": 0.00446
+      },
+      {
+        "feature": "cycle_slope_3",
+        "mean_abs_shap": 0.0043
+      }
+    ],
+    "next_is_irregular": [
+      {
+        "feature": "irregular_count_3",
+        "mean_abs_shap": 0.08285
+      },
+      {
+        "feature": "prev1_irregular_flag",
+        "mean_abs_shap": 0.06504
+      },
+      {
+        "feature": "cycle_mean_3",
+        "mean_abs_shap": 0.0526
+      },
+      {
+        "feature": "prev1_cycle_length",
+        "mean_abs_shap": 0.04917
+      },
+      {
+        "feature": "prev2_irregular_flag",
+        "mean_abs_shap": 0.045
+      },
+      {
+        "feature": "prev3_irregular_flag",
+        "mean_abs_shap": 0.04307
+      },
+      {
+        "feature": "prev3_cycle_length",
+        "mean_abs_shap": 0.03237
+      },
+      {
+        "feature": "prev2_cycle_length",
+        "mean_abs_shap": 0.03084
+      },
+      {
+        "feature": "cycle_std_3",
+        "mean_abs_shap": 0.01456
+      },
+      {
+        "feature": "cycle_range_3",
+        "mean_abs_shap": 0.0136
+      }
+    ]
+  },
+  "skipped": {}
+}

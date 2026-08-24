@@ -1,0 +1,9 @@
+{
+  "best_params": {
+    "alpha": 288.77747175886043
+  },
+  "best_value": 0.5743186494671262,
+  "direction": "minimize",
+  "n_trials": 50,
+  "metric": "mae"
+}

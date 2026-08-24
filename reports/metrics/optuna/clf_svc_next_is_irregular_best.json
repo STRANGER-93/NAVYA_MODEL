@@ -1,0 +1,10 @@
+{
+  "best_params": {
+    "C": 0.010719864040714903,
+    "gamma": "scale"
+  },
+  "best_value": 0.8342726237622176,
+  "direction": "maximize",
+  "n_trials": 30,
+  "metric": "pr_auc"
+}

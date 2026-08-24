@@ -1,0 +1,10 @@
+{
+  "best_params": {
+    "C": 1.409376539709769,
+    "gamma": "auto"
+  },
+  "best_value": 1.2998218698675124,
+  "direction": "minimize",
+  "n_trials": 30,
+  "metric": "mae"
+}

@@ -1,0 +1,11 @@
+{
+  "best_params": {
+    "n_neighbors": 11,
+    "weights": "distance",
+    "p": 1
+  },
+  "best_value": 1.2775967339767218,
+  "direction": "minimize",
+  "n_trials": 50,
+  "metric": "mae"
+}

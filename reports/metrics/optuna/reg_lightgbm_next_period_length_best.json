@@ -1,0 +1,15 @@
+{
+  "best_params": {
+    "n_estimators": 900,
+    "learning_rate": 0.013509401014639487,
+    "num_leaves": 19,
+    "min_child_samples": 16,
+    "subsample": 0.9247923383867085,
+    "colsample_bytree": 0.7786674940397501,
+    "reg_lambda": 0.21081457675013512
+  },
+  "best_value": 0.573055175056055,
+  "direction": "minimize",
+  "n_trials": 50,
+  "metric": "mae"
+}

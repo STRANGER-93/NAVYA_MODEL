@@ -1,0 +1,7 @@
+model,target,pr_auc_mean,pr_auc_std,f1_mean,f1_std,roc_auc_mean,roc_auc_std,primary_metric,primary_value
+logistic_regression,next_is_irregular,0.77658,0.018,0.7183,0.02124,0.94317,0.01208,pr_auc,0.77658
+random_forest,next_is_irregular,0.87266,0.02337,0.79219,0.03146,0.96897,0.00567,pr_auc,0.87266
+xgboost,next_is_irregular,0.84228,0.0239,0.77739,0.0181,0.95292,0.00813,pr_auc,0.84228
+lightgbm,next_is_irregular,0.85117,0.02303,0.78153,0.02263,0.95723,0.01006,pr_auc,0.85117
+svc,next_is_irregular,0.81211,0.04107,0.77999,0.02508,0.9579,0.00807,pr_auc,0.81211
+knn,next_is_irregular,0.78186,0.04307,0.78033,0.02981,0.91431,0.02025,pr_auc,0.78186

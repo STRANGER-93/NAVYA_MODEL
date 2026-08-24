@@ -1,0 +1,40 @@
+{
+  "n_rows": 20000,
+  "n_cols": 30,
+  "missing_per_column": {},
+  "duplicate_rows": 0,
+  "cycle_length_out_of_bounds": {
+    "count": 0,
+    "indices": []
+  },
+  "period_length_out_of_bounds": {
+    "count": 0,
+    "indices": []
+  },
+  "menarche_after_age": {
+    "count": 0,
+    "indices": []
+  },
+  "menarche_below_min": {
+    "count": 0,
+    "indices": []
+  },
+  "bmi_out_of_bounds": {
+    "count": 0,
+    "indices": []
+  },
+  "weight_out_of_bounds": {
+    "count": 0,
+    "indices": []
+  },
+  "height_m_out_of_bounds": {
+    "count": 0,
+    "indices": []
+  },
+  "bmi_inconsistent": {
+    "count": 0,
+    "indices": []
+  },
+  "rows_dropped": 0,
+  "rows_kept": 20000
+}

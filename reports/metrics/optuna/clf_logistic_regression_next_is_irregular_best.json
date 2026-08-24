@@ -1,0 +1,9 @@
+{
+  "best_params": {
+    "C": 0.980342846772514
+  },
+  "best_value": 0.7769228036880513,
+  "direction": "maximize",
+  "n_trials": 100,
+  "metric": "pr_auc"
+}

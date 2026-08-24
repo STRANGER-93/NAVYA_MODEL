@@ -1,0 +1,4 @@
+target,mae,rmse,r2,pr_auc,f1,roc_auc,confusion_matrix
+next_cycle_length,1.1982,1.7608,0.7984,,,,
+next_period_length,0.5856,0.7355,0.6715,,,,
+next_is_irregular,,,,0.8736,0.7508,0.974,"[[2599, 128], [32, 241]]"
