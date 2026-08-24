@@ -1,0 +1,26 @@
+# Menstrual Cycle Outcome Prediction - pinned to versions verified on Python 3.13
+# core ML / data
+pandas==3.0.5
+numpy==2.5.2
+scipy==1.18.1
+scikit-learn==1.9.0
+joblib==1.5.3
+# gradient boosting
+xgboost==3.4.1
+lightgbm==4.7.0
+# tuning & interpretability
+optuna==4.9.0
+shap==0.52.0
+# visualization (plotly required by optuna.visualization)
+matplotlib==3.11.1
+seaborn==0.13.2
+plotly==6.9.0
+tabulate==0.10.0
+# notebook execution (kernel: mc-cycle)
+jupyter==1.1.1
+ipykernel==7.3.0
+nbformat==5.11.1
+nbclient==0.11.0
+nbconvert==7.17.1
+# parquet support
+pyarrow==25.0.1
