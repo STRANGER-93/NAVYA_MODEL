@@ -1,6 +1,6 @@
 {
   "model_version": "1.0.0",
-  "training_date": "2026-08-29",
+  "training_date": "2026-09-01",
   "target": "next_cycle_length_days",
   "feature_names": [
     "age_years",
@@ -44,19 +44,19 @@
   ],
   "selected_estimator": "XGBRegressor",
   "hyperparameters": {
-    "model__subsample": 0.9,
+    "model__subsample": 0.7,
     "model__n_estimators": 250,
-    "model__max_depth": 3,
+    "model__max_depth": 2,
     "model__learning_rate": 0.03,
     "model__colsample_bytree": 1.0
   },
   "final_test_metrics": {
-    "MAE": 1.187208565711975,
-    "MSE": 2.85109165832896,
-    "RMSE": 1.6885175919512831,
-    "R2": 0.7928751556030611,
-    "within_1_day_pct": 56.49999999999999,
-    "within_2_days_pct": 84.65
+    "MAE": 1.1928959817886353,
+    "MSE": 2.8762093051951068,
+    "RMSE": 1.6959390629368458,
+    "R2": 0.7910504199150414,
+    "within_1_day_pct": 56.55,
+    "within_2_days_pct": 84.75
   },
   "training_cycle_history_median": 29.0,
   "training_period_history_median": 5.0,
@@ -82,7 +82,7 @@
   },
   "uncertainty_method": "split_conformal",
   "coverage": 0.9,
-  "q_hat_days": 2.172985076904297,
+  "q_hat_days": 2.2042102813720703,
   "supported_cycle_lower_bound": 17.0,
   "supported_cycle_upper_bound": 39.0,
   "height_conversion_rule": "feet = floor(height); inches = round((height - feet) * 10); height_cm = (feet * 12 + inches) * 2.54; bmi = weight_kg / (height_cm / 100)^2",
